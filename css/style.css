@@ -1,0 +1,184 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+/* HEADER SECTION */
+
+header, main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* NAV SECTION */
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 0.5em 0.3em ;
+  gap: 0.2em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+  gap: 1em;
+   
+}
+
+nav ul a {
+  font-weight: 600;
+  text-decoration-line: none;
+  color: #090909;
+}
+
+/* TYPOGRAPHY */
+
+a {
+  margin: 0;
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h1 {
+    margin: .2em 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+nav span {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: .31em;
+}
+
+/* HERO SECTION */
+
+.div-redirect {
+  text-decoration-line: none;
+  
+}
+
+.hero {
+  color: #ffff;
+  background-image: url(/images/blog-image-hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 2.5em;
+  padding: 4.625em 1em 1.5em 1em;
+  min-height: 300px;
+}
+
+.hero-content {
+  margin-top: 80px;
+}
+
+/* MAIN SECTION */
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3em;
+  padding: 0 1em;
+  margin: 0 auto;
+}
+
+article {
+  border-radius: 3%;
+  background-color: #ffff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding: 2em;
+}
+
+.article-date {
+  margin-top: 1em;
+  font-weight: 700;
+}
+
+.blog-pic {
+  width: 100%;
+  border-radius: 3%;
+}
+
+.blog-name {
+  margin: .4em 0;
+}
+
+.view-more {
+  font-weight: 700;
+  text-decoration: underline;
+  margin: 2em auto;
+  cursor: pointer;
+}
+
+.view-more-container {
+  display: flex;
+  width: 50%;
+  margin: 2em auto;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  margin-top: 1.5em;
+  color: #ffff;
+  text-align: center;
+  background-color: #202020;
+  padding: 1em 0;
+}
+
+.footer-text {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+footer p {
+  font-weight: 300;
+} 
+
+/* MEDIA QUERIES */
+
+@media (min-width: 700px) {
+  main {
+    grid-template-columns: repeat(3, 1fr);
+  } 
+  
+  nav span {
+    font-size: 1.5rem;
+  }
+  
+  nav ul li {
+    font-size: 1.5rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  .blog-subhead{
+    font-size: 1rem;
+  }
+  
+  .article-date{
+    font-size: 1rem;
+  }
+  
+}
