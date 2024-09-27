@@ -1,6 +1,6 @@
 # 📘 Learning Journal
 
-Live: https://chic-mochi-ffaa48.netlify.app/
+**Live: https://chic-mochi-ffaa48.netlify.app/**
 
 ***A website made to increase my knowledge in Responsive Design.
 Applies a lot responsive concepts of CSS to better understand it.***
