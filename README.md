@@ -1,4 +1,4 @@
-# Learning Journal 📘
+# Learning Journal
 
 <div align="center">
 
@@ -19,13 +19,13 @@
 
 **Learning Journal is a personal project crafted to deepen my understanding of responsive design. This website showcases various CSS techniques that adapt layouts seamlessly across different devices and screen sizes, making it an ideal resource for exploring modern UI/UX practices.**
 
-## ⚒️ Built With
+## Built With
 
 - **HTML5:** For semantic structure and accessibility.
 - **CSS3:** To implement responsive layouts and visually engaging designs.
 - **JavaScript:** To add interactivity and enhance the overall user experience.
 
-## 📷 Screenshots
+## Screenshots
 
 <div align="center">
 
@@ -52,7 +52,7 @@ To run the project locally:
       - **Open the index.html file in your preferred browser.**
 
 
-## 🤝 Contributing
+## Contributing
 Contributions are welcome! If you have suggestions or improvements, please:
 
 1. **Fork the repository.**
@@ -74,7 +74,7 @@ Contributions are welcome! If you have suggestions or improvements, please:
 
 4. **Open a pull request**.
 
-## 👤 Author
+## Author
 
 ### Ashwin S Nambiar
 - Portfolio: [ashwin.co.in](https://ashwin.co.in)
