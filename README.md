@@ -74,12 +74,6 @@ Contributions are welcome! If you have suggestions or improvements, please:
 
 4. **Open a pull request**.
 
-## Author
-
-### Ashwin S Nambiar
-- Portfolio: [ashwin.co.in](https://ashwin.co.in)
-- GitHub: [@Ashwin-S-Nambiar](https://github.com/Ashwin-S-Nambiar)
-
 ---
 
 <div align="center">
